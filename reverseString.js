@@ -1,5 +1,6 @@
 const reverseString = (str)=>{
-    let output = str.split("");
+    //let output = str.split("");
+    let output = [...str];
     let right = str.length - 1;
     let left = 0;
     let temp;
