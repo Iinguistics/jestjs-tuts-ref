@@ -70,7 +70,7 @@ test('User should be John Doe object', ()=>{
 
 
 // less than, greater than || equal to ect.. toBeLessThan(), toBeGreaterThan(), ect..
-test('should be under 1400', ()=>{
+test('should be <= 1400', ()=>{
     const check1 = 700;
     const check2 = 700;
     expect(check1 + check2).toBeLessThanOrEqual(1400);
