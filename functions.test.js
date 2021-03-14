@@ -1,5 +1,7 @@
 const functions = require('./functions');
 
+// to run your test while developing without having to run npm run test
+// in package.json add to scripts: "testwatch": "jest --watchAll", then npm run testwatch
 
 // before & after ea test it will run these functions
 // beforeEach(()=> initDatabase());
